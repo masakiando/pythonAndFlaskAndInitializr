@@ -1,0 +1,7 @@
+pip3 install flask_sqlalchemy
+python3
+from app import db
+db.create_all()
+
+git add .
+git commit -m 'flask_sqlalchemyの導入とユーザーモデルとノートモデルの実装' && git push
